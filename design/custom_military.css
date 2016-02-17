@@ -1086,8 +1086,8 @@ body {
   font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #a5a7a0;
-  background-color: #3a3c33;
+  color: #C3C3C3;
+  background-color: #565A42;
 }
 input,
 button,
@@ -1187,7 +1187,7 @@ h6,
   font-family: 'Source Sans Pro', 'Segoe UI', 'Droid Sans', Tahoma, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: #ffffff;
+  color: #C3C3C3;
 }
 h1 small,
 h2 small,
@@ -1355,7 +1355,7 @@ mark,
 .Conversation .Item .MItem a,
 .Item .AuthorInfo,
 .ActionBlock {
-  color: #2b2c28;
+  color: #C3C3C3;
 }
 .text-primary {
   color: #686f5a;
@@ -2689,8 +2689,8 @@ select,
   padding: 8px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #dddfd5;
-  background-color: #60615b;
+  color: #DFE5C9;
+  background-color: #474A3F;
   background-image: none;
   border: 1px solid #3a3c33;
   border-radius: 4px;
@@ -3237,8 +3237,8 @@ fieldset[disabled] .SocialIcon:active {
 .btn-default,
 .Button,
 .ActionBlock .React {
-  color: #ffffff;
-  background-color: #686f5a;
+  color: #C3C3C3;
+  background-color: #2B2C28;
   border-color: #686f5a;
 }
 .btn-default:hover,
@@ -3253,8 +3253,8 @@ fieldset[disabled] .SocialIcon:active {
 .ActionBlock .React:hover,
 .ActionBlock .React:focus,
 .ActionBlock .React:active {
-  color: #ffffff;
-  background-color: #4e5343;
+  color: #2B2C28;
+  background-color: #DFE5C9;
   border-color: #484d3f;
 }
 .btn-default:active,
@@ -3299,8 +3299,8 @@ fieldset[disabled] .Button:active {
 }
 .btn-primary,
 .Button.Primary {
-  color: #ffffff;
-  background-color: #686f5a;
+  color: #C3C3C3;
+  background-color: #2B2C28;
   border-color: #686f5a;
 }
 .btn-primary:hover,
@@ -3312,8 +3312,8 @@ fieldset[disabled] .Button:active {
 .Button.Primary:hover,
 .Button.Primary:focus,
 .Button.Primary:active {
-  color: #ffffff;
-  background-color: #4e5343;
+  color: #2B2C28;
+  background-color: #DFE5C9;
   border-color: #484d3f;
 }
 .btn-primary:active,
@@ -3729,7 +3729,7 @@ tbody.collapse.in {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #a5a7a0;
+  color: #DFE5C9;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -3740,8 +3740,8 @@ tbody.collapse.in {
 .token-input-dropdown li:hover,
 .ac_results li:hover {
   text-decoration: none;
-  color: #ffffff;
-  background-color: #b4c086;
+  color: #2B2C28;
+  background-color: #DFE5C9;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -4306,7 +4306,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .FilterMenu .Active > a,
 .FilterMenu .Active > a:hover,
 .FilterMenu .Active > a:focus {
-  color: #ffffff;
+  color: #DFE5C9;
   background-color: transparent;
 }
 .nav-stacked > li,
@@ -4738,8 +4738,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .FlyoutButton:hover,
 .navbar-default .MeBox .Username:focus,
 .navbar-default .MeBox .FlyoutButton:focus {
-  color: #ffffff;
-  background-color: #b4c086;
+  color: #2B2C28;
+  background-color: #DFE5C9;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -4750,8 +4750,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .Open .FlyoutButton,
 .navbar-default .MeBox .Open .FlyoutButton:hover,
 .navbar-default .MeBox .Open .FlyoutButton:focus {
-  color: #ffffff;
-  background-color: #b4c086;
+  color: #2B2C28;
+  background-color: #DFE5C9;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -5178,7 +5178,7 @@ a.label:focus {
 }
 .label-warning,
 .HasNew {
-  background-color: #f89406;
+  background-color: #19A000;
 }
 .label-warning[href]:hover,
 .label-warning[href]:focus {
@@ -5289,7 +5289,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #2d2e27;
+  background-color: #565A42;
   border: 1px solid #1a1b17;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -5623,8 +5623,8 @@ a.list-group-item:focus,
 .PanelInfo a:hover,
 .PanelInfo a:focus {
   text-decoration: none;
-  color: #a5a7a0;
-  background-color: #55584a;
+  color: #2B2C28;
+  background-color: #DFE5C9;
 }
 .list-group-item.disabled,
 .list-group-item.disabled:hover,
@@ -6271,7 +6271,7 @@ a.Delete,
   font-size: 21px;
   font-weight: bold;
   line-height: 1;
-  color: #000000;
+  color: #DFE5C9;
   text-shadow: 0 1px 0 #ffffff;
   opacity: 0.2;
   filter: alpha(opacity=20);
@@ -10188,7 +10188,12 @@ h1.H,
   }
 }
 .Preferences .PreferenceGroup {
-  width: 100%;
+    width: 100%;
+    border-radius:4px;
+    border-color: rgba(0, 0, 0, 0.6);
+    background-color: #42443a;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 .InputBox::-moz-placeholder,
 .TextBox::-moz-placeholder,
@@ -10876,6 +10881,7 @@ a.Bookmarked:before {
 .MeBox > .PhotoWrap {
   margin-top: 9px;
   margin-bottom: 9px;
+  margin-right:9px;
 }
 .MeBox > .PhotoWrap img {
   width: 32px;
@@ -10904,7 +10910,7 @@ a.Bookmarked:before {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  color: #a5a7a0;
+  color: #C3C3C3;
   vertical-align: top;
 }
 .Item .Username,
@@ -10929,7 +10935,7 @@ a.Bookmarked:before {
 .DataTable .Conversation .Item .MItem,
 .DataTable .Item .Meta a,
 .DataTable .Conversation .Item .MItem a {
-  color: #76786f;
+  color: #C3C3C3;
 }
 .MenuItems .Item .Meta,
 .MenuItems .Conversation .Item .MItem,
@@ -10939,7 +10945,7 @@ a.Bookmarked:before {
 .FlyoutMenu .Conversation .Item .MItem,
 .FlyoutMenu .Item .Meta a,
 .FlyoutMenu .Conversation .Item .MItem a {
-  color: #686a64;
+  color: #C3C3C3;
 }
 .Item .Meta .MItem,
 .Item .AuthorInfo .MItem {
