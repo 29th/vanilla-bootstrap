@@ -48,3 +48,8 @@
 .Overlay .Preview {
     margin-bottom: 100px;
 }
+
+body {
+/*    background-image: url('http://personnel.29th.org/images/other/sf_bg.png'); */
+    background-color: #4C5844;
+}

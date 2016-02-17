@@ -32,8 +32,7 @@ gulp.task('scripts', function () {
   return gulp.src((dependencies.js || []).concat([
     'js/src/main.js',
     'bower_components/bootstrap/js/transition.js',
-    'bower_components/bootstrap/js/collapse.js',
-    'bower_components/bootstrap/js/dropdown.js'
+    'bower_components/bootstrap/js/collapse.js'
   ]))
     .pipe($.plumber())
     .pipe($.concat('custom.js'))
