@@ -4732,6 +4732,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .FlyoutButton {
   color: #a5a7a0;
 }
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .MeBox .Username:hover,
@@ -4742,7 +4743,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: #DFE5C9;
 }
 .navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > .Selected,
 .navbar-default .navbar-nav > li > .Selected:hover,
@@ -4750,9 +4750,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .MeBox .Open .FlyoutButton,
 .navbar-default .MeBox .Open .FlyoutButton:hover,
 .navbar-default .MeBox .Open .FlyoutButton:focus {
-  color: #2B2C28;
-  background-color: #DFE5C9;
+  color: #a5a7a0;
+  background-color: #2B2C28;
 }
+
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
@@ -4776,8 +4777,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #b4c086;
-  color: #ffffff;
+  background-color: #DFE5C9; /* #b4c086; */
+  color: #000; /*#ffffff; */
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -11663,7 +11664,7 @@ img.jcrop-preview {
 h1.H,
 .HomepageTitle {
   margin-top: 0;
-}
+} 
 
 .Discussion > .Item-BodyWrap > .Item-Body {
   padding: 0;
@@ -11684,4 +11685,5 @@ h1.H,
   background: #DFE5C9;
   padding-left:15px;
   margin-left:5%;
+  font-style: italic;
 }
