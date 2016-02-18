@@ -11664,3 +11664,24 @@ h1.H,
 .HomepageTitle {
   margin-top: 0;
 }
+
+.Discussion > .Item-BodyWrap > .Item-Body {
+  padding: 0;
+}
+
+.Discussion > .Item-BodyWrap > .Item-Body > .Message {
+  background-color: white;
+  color: black;
+  padding: 4px;
+  font-size: 1.2em;
+}
+
+.Discussion > .Item-BodyWrap > .Item-Body > .Message a {
+  color: darkblue;
+}
+
+.Discussion > .Item-BodyWrap > .Item-Body > .Message > Blockquote {
+  background: #DFE5C9;
+  padding-left:15px;
+  margin-left:5%;
+}
