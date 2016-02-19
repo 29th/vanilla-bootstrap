@@ -5219,6 +5219,17 @@ a.label:focus {
 .Alert:empty {
   display: none;
 }
+
+.Alert {
+   background-color: #DFE5C9;
+   color: black;
+}
+
+.Alert:hover, .Alert:focus, .ToggleFlyout:hover .Alert {
+   background-color: black;
+   color: #DFE5C9;
+}
+
 .btn .badge {
   position: relative;
   top: -1px;
@@ -5779,7 +5790,8 @@ a.list-group-item-danger.active:focus {
 .CategoryBox,
 .CategoryGroup {
   margin-bottom: 20px;
-  background-color: #42443a;
+  background-color: #9DB095; /* #42443a; */
+  color: black;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -11670,29 +11682,30 @@ h1.H,
 } 
 
 /* Following rules are temporary untill all 29th stack imgs are changed to white on transparent BG  */
+.Discussion > .Item-BodyWrap {
+  background-color: #9DB095;
+  color: black;
+}
 
 .Discussion > .Item-BodyWrap > .Item-Body {
   padding: 0;
 }
 
 .Discussion > .Item-BodyWrap > .Item-Body > .Message {
-  background-color: white !important;
-  color: black;
+  background-color: #9DB095;
   padding: 4px;
-  font-size: 1.2em;
 }
 
 .Discussion > .Item-BodyWrap > .Item-Body > .Message a {
   color: darkblue;
 }
 
-.Discussion > .Item-BodyWrap > .Item-Body > .Message > Blockquote {
+.Message Blockquote {
   background: #DFE5C9;
-  padding-left:15px;
-  margin-left:5%;
+  margin:0 2%;
   font-style: italic;
 }
 
 .Message table {
-  background-color: white;
+  background-color: #9DB095;
 }
