@@ -1122,9 +1122,12 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img,
-.Message img,
 .PhotoWrapLarge > img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+.Message img {
   max-width: 100%;
   height: auto;
 }
@@ -11666,12 +11669,14 @@ h1.H,
   margin-top: 0;
 } 
 
+/* Following rules are temporary untill all 29th stack imgs are changed to white on transparent BG  */
+
 .Discussion > .Item-BodyWrap > .Item-Body {
   padding: 0;
 }
 
 .Discussion > .Item-BodyWrap > .Item-Body > .Message {
-  background-color: white;
+  background-color: white !important;
   color: black;
   padding: 4px;
   font-size: 1.2em;
@@ -11686,4 +11691,8 @@ h1.H,
   padding-left:15px;
   margin-left:5%;
   font-style: italic;
+}
+
+.Message table {
+  background-color: white;
 }
