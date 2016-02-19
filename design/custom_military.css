@@ -4777,8 +4777,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #DFE5C9; /* #b4c086; */
-  color: #000; /*#ffffff; */
+  background-color: #DFE5C9;
+  color: #000;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
