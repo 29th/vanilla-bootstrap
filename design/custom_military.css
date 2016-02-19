@@ -11706,6 +11706,11 @@ h1.H,
   font-style: italic;
 }
 
+.Message Blockquote a {
+  color: black; 
+  text-decoration: underline;
+}
+
 .Message table {
   background-color: #9DB095;
 }
