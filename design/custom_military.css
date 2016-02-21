@@ -1098,7 +1098,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #dfe5c9;
+  color: #42443a;
   text-decoration: none;
 }
 a:hover,
@@ -2272,7 +2272,7 @@ pre code {
   }
 }
 table {
-  background-color: #42443a;
+  background-color: #9DB095; /* #42443a; */
 }
 caption {
   padding-top: 8px;
@@ -2324,6 +2324,8 @@ table > caption + thead > tr:first-child > td,
 table > colgroup + thead > tr:first-child > td,
 table > thead:first-child > tr:first-child > td {
   border-top: 0;
+  background-color: #42443a;
+  color: #C3C3C3;
 }
 .table > tbody + tbody,
 table > tbody + tbody {
@@ -2361,7 +2363,7 @@ table table {
 }
 .table-hover > tbody > tr:hover,
 .DataTable > tbody > tr:hover {
-  background-color: #626556;
+  background-color: #9DB095;
 }
 table col[class*="col-"] {
   position: static;
@@ -10736,6 +10738,9 @@ a.Bookmarked:before {
 }
 .page-sidebar .FilterMenu {
   padding: 14px 0;
+  background-color: #9DB095;
+  border-radius: 6px;
+  margin: 3px 1px;
 }
 .page-content .FilterMenu {
   display: none;
@@ -10749,6 +10754,11 @@ a.Bookmarked:before {
 .Breadcrumbs .HomeCrumb:before {
   display: none;
 }
+
+.Breadcrumbs a {
+  color: #dfe5c9;
+}
+
 .PagerNub {
   display: none;
 }
@@ -10912,6 +10922,14 @@ a.Bookmarked:before {
   float: left !important;
   float: left;
 }
+
+.Flyout .Subject a,
+.Flyout .Conversations a,
+.Flyout .Item.Center a,
+.Flyout .Activities > li {
+  color: #dfe5c9;
+}
+
 .MeBox .ToggleFlyout em {
   display: none;
 }
@@ -10926,7 +10944,7 @@ a.Bookmarked:before {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  color: #C3C3C3;
+  color: #42443a; /* #C3C3C3; */
   vertical-align: top;
 }
 .Item .Username,
@@ -10938,6 +10956,11 @@ a.Bookmarked:before {
   font-size: 14px;
   text-align: right;
 }
+
+.CategoryName .Title {
+  color: #dfe5c9;
+}
+
 .Item .Meta,
 .Conversation .Item .MItem {
   font-size: 12px;
@@ -10951,7 +10974,7 @@ a.Bookmarked:before {
 .DataTable .Conversation .Item .MItem,
 .DataTable .Item .Meta a,
 .DataTable .Conversation .Item .MItem a {
-  color: #C3C3C3;
+  color: #42443a;
 }
 .MenuItems .Item .Meta,
 .MenuItems .Conversation .Item .MItem,
@@ -11159,7 +11182,8 @@ tr.Item:after {
 .DataTable h4 a,
 .DataTable h5 a,
 .DataTable h6 a {
-  color: #a5a7a0;
+  color: #42443a;
+  font-weight: bold;
 }
 .DataTable > tbody > tr > td {
   vertical-align: middle;
@@ -11236,7 +11260,7 @@ tr.Item:after {
 }
 .MessageList .Item:hover,
 .MessageList .Item:focus {
-  background-color: #42443a;
+  background-color: #9DB095;
 }
 .MessageList .Item .Options {
   padding: 10px 15px;
@@ -11670,7 +11694,6 @@ img.jcrop-preview {
   color: transparent !important;
 }
 .navbar {
-  text-transform: uppercase;
 }
 /* Forum-specific customizations */
 .search-form {
@@ -11685,10 +11708,6 @@ h1.H,
 .Discussion > .Item-BodyWrap {
   background-color: #9DB095;
   color: black;
-}
-
-.Discussion > .Item-BodyWrap > .Item-Body {
-  padding: 0;
 }
 
 .Discussion > .Item-BodyWrap > .Item-Body > .Message {
