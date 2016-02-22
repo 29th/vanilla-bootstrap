@@ -1622,6 +1622,18 @@ pre code {
     width: 1170px;
   }
 }
+@media (min-width: 1500px) {
+  .container,
+  .container {
+    width: 1460px;
+  }
+}
+@media (min-width: 2000px) {
+  .container,
+  .container {
+    width: 1950px;
+  }
+}
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
@@ -11769,7 +11781,8 @@ Condensed.DataList.Conversations .Item {
   color: #a5a7a0 !important;
 }
 
-.Message h3,h4,h5 {
+.Message h3,h4,h5,
+.clearfix {
   color: #DFE5C9;
 }
 
@@ -11780,3 +11793,8 @@ table.DataTable.CategoryTable a {
 a.BlockTitle.LatestPostTitle {
   display: block;
 }
+
+.DataList.SearchResults {
+  color: black;
+}
+
