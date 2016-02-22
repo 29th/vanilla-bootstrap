@@ -29,7 +29,22 @@
                 {custom_menu}
                 </ul>
             </li>
-            <li><a href="http://personnel.29th.org">Personnel</a></li>
+
+            <li class="active dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Personnel<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="http://personnel.29th.org">Roster</a></li>
+                  <li><a href="http://personnel.29th.org/#calendar">Calendar</a></li>
+                  <li><a href="http://personnel.29th.org/#banlogs">Ban Logs</a></li>
+                  <li><a href="http://personnel.29th.org/#enlistments">Enlistments</a></li>
+                  <li><a href="http://personnel.29th.org/#eloas">Extended LOAs</a></li>
+                  <li><a href="http://personnel.29th.org/#finances">Finances</a></li>
+                  <li><a href="http://personnel.29th.org/#passes">Weapon Passes</a></li>
+                  <li><a href="http://personnel.29th.org/#membersearch">Member Search</a></li>
+                </ul>
+            </li>
+
+<!--            <li><a href="http://personnel.29th.org">Personnel</a></li> -->
             <li><a href="http://29th.org/wiki">Wiki</a></li>
           </ul>
           {if $User.SignedIn}
