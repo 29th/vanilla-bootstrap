@@ -5543,7 +5543,7 @@ a.thumbnail.active {
 .Item.ActivityComment .ItemContent,
 .BlockColumn .Meta,
 .BlockColumn .BlockTitle {
-  width: 10000px;
+  /* width: 10000px; */
 }
 .media-object,
 .UserBox .PhotoWrap,
@@ -11103,6 +11103,11 @@ tr.Item:after {
 .DataList {
   list-style: none;
 }
+
+.DataList .Item {
+  background-color: #9DB095;
+}
+
 .DataList:empty {
   display: none;
 }
@@ -11770,4 +11775,8 @@ Condensed.DataList.Conversations .Item {
 
 table.DataTable.CategoryTable a {
   color: #42443a;
+}
+
+a.BlockTitle.LatestPostTitle {
+  display: block;
 }
