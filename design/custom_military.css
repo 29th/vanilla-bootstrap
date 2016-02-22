@@ -1098,7 +1098,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #42443a;
+  color: white; /* #42443a; */
   text-decoration: none;
 }
 a:hover,
@@ -10715,6 +10715,7 @@ a.Bookmarked:before {
 }
 .OptionsMenu .SpFlyoutHandle {
   cursor: pointer;
+  color: #42443a;
 }
 .OptionsMenu .SpFlyoutHandle:hover,
 .OptionsMenu .SpFlyoutHandle:focus {
@@ -11030,9 +11031,10 @@ tr.Item:after {
   font-size: 14px;
   line-height: 1.42857143;
 }
+.Item.Activity,
 .Item.Activity:hover,
 .Item.ActivityComment:hover {
-  background-color: #474a3f;
+  background-color: #9DB095;
 }
 .PageTitle .Options {
   float: right !important;
@@ -11087,6 +11089,12 @@ tr.Item:after {
   float: left;
   line-height: 38px;
 }
+
+.Buttons .Back a,
+.CommentHeader a {
+  color: #a5a7a0;
+}
+
 @media (min-width: 768px) {
   .MessageForm .Buttons .Back {
     display: block;
@@ -11114,10 +11122,16 @@ tr.Item:after {
   width: 40px;
   height: 40px;
 }
+
 .DataList.Condensed .Item .Excerpt {
   float: left !important;
   float: left;
 }
+
+.ItemContent.Activity .Excerpt {
+  color: #DFE5C9;
+}
+
 .DataList.Condensed .Item .Meta {
   float: right !important;
   float: right;
@@ -11704,6 +11718,10 @@ h1.H,
   margin-top: 0;
 } 
 
+h1.H a{
+  color: #a5a7a0;
+}
+
 /* Following rules are temporary untill all 29th stack imgs are changed to white on transparent BG  */
 .Discussion > .Item-BodyWrap {
   background-color: #9DB095;
@@ -11732,4 +11750,24 @@ h1.H,
 
 .Message table {
   background-color: #9DB095;
+}
+
+.Meta.CommentMeta.CommentInfo a {
+  color: #a5a7a0;
+}
+
+Condensed.DataList.Conversations .Item {
+  background-color: #9DB095;
+}
+
+.Author a.Name {
+  color: #a5a7a0 !important;
+}
+
+.Message h3,h4,h5 {
+  color: #DFE5C9;
+}
+
+table.DataTable.CategoryTable a {
+  color: #42443a;
 }
