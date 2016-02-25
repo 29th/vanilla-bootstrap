@@ -6339,13 +6339,13 @@ button.token-input-delete-token {
 .modal,
 .Overlay {
   display: none;
-  overflow: hidden;
+  overflow-y: auto;
   position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 1040;
+  z-index: 9999;
   -webkit-overflow-scrolling: touch;
   outline: 0;
 }
@@ -11798,3 +11798,14 @@ a.BlockTitle.LatestPostTitle {
   color: black;
 }
 
+.Box.PersonnelFile, .Box.Steam {
+    background-color: #474A3F;
+    padding: 1px 5px;
+    border-radius: 7px;
+    margin: 10px 0;
+}
+
+.Overlay .Body {
+  background-color: #9DB095;
+  color: black;
+}
