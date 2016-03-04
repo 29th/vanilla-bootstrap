@@ -37,6 +37,7 @@
                   <li><a href="http://personnel.29th.org/#calendar">Calendar</a></li>
                   <li><a href="http://personnel.29th.org/#banlogs">Ban Logs</a></li>
                   <li><a href="http://personnel.29th.org/#enlistments">Enlistments</a></li>
+                  <li><a href="http://personnel.29th.org/#tps">Training Platoons</a></li>
                   <li><a href="http://personnel.29th.org/#eloas">Extended LOAs</a></li>
                   <li><a href="http://personnel.29th.org/#finances">Finances</a></li>
                   <li><a href="http://personnel.29th.org/#passes">Weapon Passes</a></li>
