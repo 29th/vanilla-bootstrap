@@ -11812,3 +11812,15 @@ a.BlockTitle.LatestPostTitle {
   background-color: #9DB095;
   color: black;
 }
+
+.Message code>a {
+  color: darkblue;
+}
+
+span.DateUpdated {
+  color: #C3C3C3;
+}
+
+.CategoryDescription {
+  color:black;
+}
