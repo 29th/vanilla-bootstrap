@@ -11824,3 +11824,7 @@ span.DateUpdated {
 .CategoryDescription {
   color:black;
 }
+
+.Message .ImageResized {
+  display:none;
+}
