@@ -11828,3 +11828,7 @@ span.DateUpdated {
 .Message .ImageResized {
   display:none;
 }
+
+.EasyMembersListTable td a, .EasyMembersListTable td {
+  color: black;
+}
