@@ -3755,7 +3755,8 @@ tbody.collapse.in {
 .MenuItems li > a:focus,
 .atwho-view li:hover,
 .token-input-dropdown li:hover,
-.ac_results li:hover {
+.ac_results li:hover,
+.ac_results li.ac_over {
   text-decoration: none;
   color: #2B2C28;
   background-color: #DFE5C9;
@@ -11121,6 +11122,10 @@ tr.Item:after {
 
 .DataList .Item {
   background-color: #9DB095;
+}
+
+.DataList .Item.New {
+  background-color: darkgoldenrod;
 }
 
 .DataList:empty {
