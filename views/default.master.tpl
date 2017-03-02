@@ -41,6 +41,9 @@
                   <li><a href="http://personnel.29th.org/#eloas">Extended LOAs</a></li>
                   <li><a href="http://personnel.29th.org/#finances">Finances</a></li>
                   <li><a href="http://personnel.29th.org/#passes">Weapon Passes</a></li>
+                  <li><a href="http://personnel.29th.org/#recruits">Recruits</a></li>
+                  <li><a href="http://personnel.29th.org/#notes">Notes</a></li>
+                  <li><a href="http://personnel.29th.org/#awards">Awards</a></li>
                   <li><a href="http://personnel.29th.org/#membersearch">Member Search</a></li>
                 </ul>
             </li>
